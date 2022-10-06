@@ -24,3 +24,17 @@ print("Nilai Tugas :" ,tugas)
 print("Nilai Uts :" ,uts)
 print("Nilai Uas :" ,uas)
 print("Nilai Akhir :" ,na)
+
+if na >= 90:
+    print("Grade : A")
+elif na >= 80:
+    print("Grade : B")
+elif na >= 75:
+    print("Grade : C")
+elif na >= 50:
+    print("Grade : D")
+
+if na >= 60:
+    print("Keterangan : LULUS")
+else:
+    print("Keterangan : TIDAK LULUS")
