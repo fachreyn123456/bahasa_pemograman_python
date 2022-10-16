@@ -25,14 +25,24 @@ print("Nilai Uts :" ,uts)
 print("Nilai Uas :" ,uas)
 print("Nilai Akhir :" ,na)
 
-if na >= 90:
+if na >= 80:
     print("Grade : A")
-elif na >= 80:
+elif na >= 77:
+    print("Grade : A-")
+elif na >= 74:
+    print("Grade : B+")
+elif na >= 71:
     print("Grade : B")
-elif na >= 75:
+elif na >= 68:
+    print("Grade : B-")
+elif na >= 64:
+    print("Grade : C+")
+elif na >= 60:
     print("Grade : C")
 elif na >= 50:
     print("Grade : D")
+elif na >= 0:
+    print("Grade : E")
 
 if na >= 60:
     print("Keterangan : LULUS")
