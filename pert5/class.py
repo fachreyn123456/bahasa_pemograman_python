@@ -11,7 +11,7 @@ ketrin = Mahasiswa()
 ketrin.nama = "ketrin"
 ketrin.nim = "123"
 
-ketrin.hello()
+ketrin.hello() 
 
 class Abc:
 
