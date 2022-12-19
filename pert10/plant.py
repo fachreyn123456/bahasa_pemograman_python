@@ -128,4 +128,6 @@ Tanaman3 = Melati(3, 1, 1, 'Melati')
 print("Jenis Tanaman \t: {}".format(Tanaman3.jenis))
 Tanaman3.getstatustumbuhText()
 Tanaman3.DisplyPlant()
+
+
         
